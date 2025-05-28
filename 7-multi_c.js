@@ -1,8 +1,10 @@
-const arg = process.argv[2]
-if (isNaN(numOccurences)||numOccurences <= 0) {
-  console.log("Missing number of occurrences")
+const arg = process.argv;
+const numOccurences = Number(arg);
+
+if (isNaN(numOccurences)){
+  console.log("Missing number of occurrences");
 } else {
   let outputString = "";
 }for(let i = 0; i< numOccurences; i++) {
-  outputString += "C is fun\n";
-}console.log(outputString.trimEnd());
+  
+}console.log('C is fun');
