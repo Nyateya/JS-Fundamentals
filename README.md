@@ -1,0 +1,1 @@
+initialized a repo and printed a variable to the console
